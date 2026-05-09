@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--white);
+    background-color: #f5f5f5;
     margin: 0;
 
     display: flex;
@@ -56,13 +56,58 @@ body {
     background-color: var(--purple500);
 }
 
-#box-1 h2 {
+#box-1 h1 {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: .5rem;
+}
 
+#box-1 #h1-top {
+    margin-bottom: -1rem;
+    font-size: 3.2rem;
+}
+
+#box-1 #h1-bottom {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+
+#box-1 #num {
+    color: var(--yellow500);
+}
+
+#box-1 #faster {
+    font-style: italic;
+}
+
+#box-1 img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#box-1 p {
+    text-align: center;
+    color: var(--purple100);
+    margin-top: 0.5rem;
 }
 
 #box-2 {
     grid-area: box-2;
-    background-color: green;
+    background-color: var(--white);
+}
+
+#box-2 img {
+    max-width: 160%;
+}
+
+#box-2 h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    max-width: 10ch;
+    line-height: 1;
 }
 
 #box-3 {
@@ -82,7 +127,24 @@ body {
 
 #box-6 {
     grid-area: box-6;
-    background-color: green;
+    background-color: var(--white);
+}
+
+#box-6 h2 {
+    margin-top: -.5rem;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: -1.5rem;
+}
+
+#box-6 p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#box-6 img {
+    width: 80%;
 }
 
 #box-7 {
